@@ -1,0 +1,41 @@
+.menu {
+	background: orange;
+	padding: 0.5em;
+	box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+	color: white;
+}
+
+.action {
+	border: 1px solid rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
+	background: rgba(255, 165, 0, 0.35);
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
+.action .pure-button {
+	margin-right: 0.1em;
+}
+
+.action h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.action p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.content {
+	position: absolute;
+	left: 1em;
+	right: 1em;
+	top: 4em;
+}
+
+body {
+	background: #F3F3F3;
+}
+
+

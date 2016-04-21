@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drone Control</title>
+<script src="/static/jquery.js"></script>
+<script src="/static/script.js"></script>
+<link rel="stylesheet" href="/static/pure-min.css">
+<link rel="stylesheet" href="/static/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+	<div class="menu pure-menu pure-menu-horizontal pure-menu-fixed">
+	        <a class="pure-menu-heading" href="">Drone Control</a>
+	</div>
+</div>
+
+<div class="content">
+Your IP is <var>{{ip}}</var>.
+<hr/>
+
+<div class="action">
+<h2>ArduCopter</h2>
+<p>Starts/stops ArduPilot to your IP (via udp on port 14550). At the time of the last refresh, ArduPilot was {{ardu_running}}.</p>
+<button class="pure-button" id="ardu-start">Start</button>
+<button class="pure-button" id="ardu-start-without-connection">Start (without connection)</button>
+<button class="pure-button" id="ardu-stop">Stop</button></div>
+
+<div class="action"><h2>Power</h2>
+<button class="pure-button" id="power-shutdown">Shutdown</button>
+<button class="pure-button" id="power-reboot">Reboot</button></div>
+
+</div>
+</body>
+</html>
